@@ -23,22 +23,6 @@ namespace ProjectSayoriRevised.Commands
         public async Task DanbooruImage(CommandContext ctx)
         {
 
-            #region Old Code
-            /* var client = new HttpClient();
-               var result = await client.GetStringAsync("https://danbooru.donmai.us/posts/random.json?tags=rating%3Asafe");
-               JArray arr = JArray.Parse(result);
-               JObject post = JObject.Parse(arr.ToString());
-
-               var builder = new DiscordEmbedBuilder
-               {
-                   Title = "Danbooru Safe Image",
-                   Color = DiscordColor.Red,
-                   ImageUrl = arr["file_url"].ToString(),
-                   Url = "https://danbooru.donmai.us/posts/" + arr["id"].ToString(),
-               };
-               var embed = await ctx.Channel.SendMessageAsync(embed: builder).ConfigureAwait(false); */
-            #endregion
-
             ApiHelper.InitializeClient();
 
             var image = await ImageProcessor.LoadImage();
