@@ -24,7 +24,7 @@ namespace ProjectSayoriRevised
 
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "ODk2OTkyMTg4Nzc1Mzk5NDI0.YWPLEw.1H2W8R_ySxujY1ejTlgZto_QVPo",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
