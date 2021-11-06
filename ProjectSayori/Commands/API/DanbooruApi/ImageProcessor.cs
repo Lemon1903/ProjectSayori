@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectSayoriRevised.Commands.DanbooruApi
+namespace ProjectSayori.Commands.DanbooruApi
 {
     public class ImageProcessor
     {

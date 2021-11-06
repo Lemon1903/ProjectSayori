@@ -7,7 +7,7 @@ using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
 using DSharpPlus.Entities;
 
-namespace ProjectSayoriRevised.Commands
+namespace ProjectSayori.Commands
 {
     public class Schedule : BaseCommandModule
     {

@@ -8,9 +8,9 @@ using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
 using Newtonsoft.Json.Linq;
 using DSharpPlus.Entities;
-using ProjectSayoriRevised.Commands.DanbooruApi;
+using ProjectSayori.Commands.DanbooruApi;
 
-namespace ProjectSayoriRevised.Commands
+namespace ProjectSayori.Commands
 {
     public class GenshinHentai : BaseCommandModule
     {

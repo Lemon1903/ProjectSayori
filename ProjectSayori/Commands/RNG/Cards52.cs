@@ -8,7 +8,7 @@ using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
 using DSharpPlus.Interactivity;
 
-namespace ProjectSayoriRevised.Commands
+namespace ProjectSayori.Commands
 {
     public class Cards52 : BaseCommandModule
     {

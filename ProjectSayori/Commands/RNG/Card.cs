@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
 
-namespace ProjectSayoriRevised.Commands
+namespace ProjectSayori.Commands
 {
     public class Cards : BaseCommandModule
     {

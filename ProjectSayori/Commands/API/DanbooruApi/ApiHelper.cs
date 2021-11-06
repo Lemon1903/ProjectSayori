@@ -6,7 +6,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectSayoriRevised.Commands.DanbooruApi
+namespace ProjectSayori.Commands.DanbooruApi
 {
     public static class ApiHelper
     {

@@ -9,11 +9,11 @@ using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
 using Newtonsoft.Json.Linq;
 using DSharpPlus.Entities;
-using ProjectSayoriRevised;
-using ProjectSayoriRevised.Commands.DanbooruApi;
+using ProjectSayori;
+using ProjectSayori.Commands.DanbooruApi;
 
 
-namespace ProjectSayoriRevised.Commands
+namespace ProjectSayori.Commands
 {
     public class Danbooru : BaseCommandModule
     {

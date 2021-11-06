@@ -9,7 +9,7 @@ using DSharpPlus.CommandsNext.Attributes;
 using Newtonsoft.Json.Linq;
 using DSharpPlus.Entities;
 
-namespace ProjectSayoriRevised.Commands
+namespace ProjectSayori.Commands
 {
     public class Fibonacci : BaseCommandModule
     {
