@@ -43,6 +43,8 @@ namespace ProjectSayori.Commands
                 "\n*1?/??/2021 (Bago mag bakasyon)*");
             builder.AddField(subjects[4], "> Make a 250-word think-piece/critique of Gloc-9's ''Upuan''. The piece should identify the gaps and contexts of the present day socio-political realities in the country and the power that they need to exercise." +
                 "\n*11/12/21*");
+            builder.AddField(subjects[0], "> Quiz!" +
+                "\n*11/15/21*");
 
             var embed = await ctx.Channel.SendMessageAsync(embed: builder).ConfigureAwait(false);
         }
