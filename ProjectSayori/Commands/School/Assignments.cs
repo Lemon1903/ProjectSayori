@@ -35,7 +35,7 @@ namespace ProjectSayori.Commands
             {
                 Title = "Assignments",
                 Color = DiscordColor.Red,
-                Description = $"Last Updated: 11/04/2021"
+                Description = $"Last Updated: 11/11/2021"
             };
 
             builder.AddField(subjects[2], "> Basahin ang modyul at pumili ng dalawang gawain na nais mong sagutan\n> mula sa Gawan 2, 3, at 6 \n" +
@@ -43,8 +43,14 @@ namespace ProjectSayori.Commands
                 "\n*1?/??/2021 (Bago mag bakasyon)*");
             builder.AddField(subjects[4], "> Make a 250-word think-piece/critique of Gloc-9's ''Upuan''. The piece should identify the gaps and contexts of the present day socio-political realities in the country and the power that they need to exercise." +
                 "\n*11/12/21*");
-            builder.AddField(subjects[0], "> Quiz!" +
-                "\n*11/15/21*");
+            builder.AddField(subjects[5], "> Answer the Homework: Integer Conversion" +
+                "\n*11/11/21*");
+            builder.AddField(subjects[0], "> Code the problems from Exercises 2 to 5. \n > Email it to: arniefabregas@gmail.com" +
+                "\n*11/15/21*" +
+                "\n> Quiz!" +
+                "\n*11/14/21 Before Midnight*");
+            builder.AddField(subjects[7], "> Answer Module 1 Assessment in Google Classroom" +
+                "\n*11/??/21*");
 
             var embed = await ctx.Channel.SendMessageAsync(embed: builder).ConfigureAwait(false);
         }
