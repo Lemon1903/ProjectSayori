@@ -46,7 +46,7 @@ namespace ProjectSayori.Commands
         {
             if (Pl1 == null | Pl2 == null)
             {
-                await ctx.RespondAsync("```?bullets [name1] [name2]");
+                await ctx.RespondAsync("```?bullets [name1] [name2]```");
             }
             Restart();
             var interactivity = ctx.Client.GetInteractivity();
@@ -525,7 +525,7 @@ namespace ProjectSayori.Commands
         #endregion
         
         
-        public string Restart()
+        public void Restart()
         {
             P1Power = 1.00;
             P2Power = 1.00;
@@ -548,7 +548,6 @@ namespace ProjectSayori.Commands
             P2Focus = false;
             P2GrazeOn = false;
             P2flag = false;
-            return null;
         }
     }
 }
