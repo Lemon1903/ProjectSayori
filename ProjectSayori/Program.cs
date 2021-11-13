@@ -7,9 +7,9 @@ using DSharpPlus.Interactivity;
 using DSharpPlus.Interactivity.Enums;
 using DSharpPlus.Interactivity.Extensions;
 using DSharpPlus.Net;
-using ProjectSayoriRevised.Commands;
+using ProjectSayori.Commands;
 
-namespace ProjectSayoriRevised
+namespace ProjectSayori
 {
     class Program
     {
@@ -24,7 +24,7 @@ namespace ProjectSayoriRevised
 
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -57,6 +57,7 @@ namespace ProjectSayoriRevised
             // Math Related
             commands.RegisterCommands<Fibonacci>();
             commands.RegisterCommands<EuclideanAlgorithm>();
+            commands.RegisterCommands<NumberSystem>();
 
             // Games
             commands.RegisterCommands<Touhou>();
