@@ -55,7 +55,6 @@ namespace ProjectSayori.Commands
             // Base 2 <-> 8/16 Variable
             string group = "";
             string divider = "";
-            int loop = 0;
             string trimmed = "";
             bool one = false;
 
@@ -95,8 +94,7 @@ namespace ProjectSayori.Commands
                                     number = "0" + number;
                                     break;
                             }
-                            loop = 0;
-                            do
+                            for (int loop = 0; loop < number.Length; loop += 3)
                             {
                                 divider = $"{number[loop]}{number[loop + 1]}{number[loop + 2]}";
                                 switch (divider)
@@ -127,8 +125,7 @@ namespace ProjectSayori.Commands
                                         break;
                                 }
                                 results += group;
-                                loop = loop + 3;
-                            } while (loop < number.Length);
+                            }
                             break;
                         case 16:
                             switch (number.Length % 4)
@@ -143,8 +140,7 @@ namespace ProjectSayori.Commands
                                     number = "0" + number;
                                     break;
                             }
-                            loop = 0;
-                            do
+                            for (int loop = 0; loop < number.Length; loop += 4)
                             {
                                 divider = $"{number[loop]}{number[loop + 1]}{number[loop + 2]}{number[loop + 3]}";
                                 switch (divider)
@@ -200,8 +196,7 @@ namespace ProjectSayori.Commands
 
                                 }
                                 results += group;
-                                loop = loop + 4;
-                            } while (loop < number.Length);
+                            }
                             break;
                         case 10:
                             for (int i = 0; i < length; i++)
