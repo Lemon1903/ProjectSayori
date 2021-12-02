@@ -21,21 +21,9 @@ namespace ProjectSayori.Commands
         {
 
             ApiHelper.InitializeClient();
-
-            var image = await ImageProcessor.LoadImageGenshinNSFW(x);
-            if (image == null)
+            try
             {
-                var error = new DiscordEmbedBuilder
-                {
-                    Title = "An error has occured",
-                    Color = DiscordColor.Red,
-                    Description = "Are you sure you typed the correct character?\n" +
-                    "If this character contains a space, replace it with an underscore `e.g.: hu_tao`"
-                };
-                var errorEmbed = await ctx.Channel.SendMessageAsync(embed: error).ConfigureAwait(false);
-            }
-            else
-            {
+                var image = await ImageProcessor.LoadImageGenshinNSFW(x);
                 var uriSource = new Uri(image.File_Url, UriKind.Absolute);
                 var idSource = image.Id;
                 var copyrightSource = image.Tag_String_Copyright;
@@ -63,6 +51,18 @@ namespace ProjectSayori.Commands
 
                 var embed = await ctx.Channel.SendMessageAsync(embed: builder).ConfigureAwait(false);
             }
+            catch
+            {
+                var error = new DiscordEmbedBuilder
+                {
+                    Title = "An error has occured",
+                    Color = DiscordColor.Red,
+                    Description = "Are you sure you typed the correct character?\n" +
+                    "If this character contains a space, replace it with an underscore `e.g.: hu_tao`"
+                };
+                var errorEmbed = await ctx.Channel.SendMessageAsync(embed: error).ConfigureAwait(false);
+            }
+            
         }
     }
 }
