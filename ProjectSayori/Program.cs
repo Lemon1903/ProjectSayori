@@ -24,7 +24,7 @@ namespace ProjectSayori
 
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -52,6 +52,7 @@ namespace ProjectSayori
             commands.RegisterCommands<Danbooru>();
             commands.RegisterCommands<GenshinHentai>();
             commands.RegisterCommands<GenshinMeme>();
+            commands.RegisterCommands<GenshinImage>();
             commands.RegisterCommands<Memes>();
 
             // Math Related
@@ -65,6 +66,7 @@ namespace ProjectSayori
             // For my class
             commands.RegisterCommands<Schedule>();
             commands.RegisterCommands<Assignments>();
+            commands.RegisterCommands<Exams>();
 
             // Others
             commands.RegisterCommands<InputTest>();
