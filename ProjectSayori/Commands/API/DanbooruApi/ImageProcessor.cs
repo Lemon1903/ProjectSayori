@@ -46,5 +46,32 @@ namespace ProjectSayori.Commands.DanbooruApi
                 }
             }
         }
+    
+        public static async Task<ImageModel> LoadImageGenshinImage(string character)
+        {
+            string url = "";
+            if (character == null)
+            {
+                url = "https://danbooru.donmai.us/posts/random.json?tags=genshin_impact+rating%3Asafe";
+            }
+            else
+            {
+                url = "https://danbooru.donmai.us/posts/random.json?tags=genshin_impact+rating%3Asafe+" + character + "_(genshin_impact)";
+            }
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    ImageModel image = await response.Content.ReadAsAsync<ImageModel>();
+
+                    return image;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+    
     }
 }
