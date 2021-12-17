@@ -35,17 +35,19 @@ namespace ProjectSayori.Commands
             {
                 Title = "Assignments",
                 Color = DiscordColor.Red,
-                Description = $"Last Updated: 12/01/2021"
+                Description = $"Last Updated: 12/06/2021"
             };
 
             builder.AddField(subjects[2], "> Basahin ang modyul at pumili ng dalawang gawain na nais mong sagutan\n> mula sa Gawan 2, 3, at 6 \n" +
                 "> Ang Modyul: https://drive.google.com/file/d/1dtm0zohDOGAKttr_6aDbXDAonkF29fst/view?usp=sharing" +
-                "\n*1?/??/2021 (Bago mag bakasyon)*");
+                "\n*01/??/2022*");
             builder.AddField(subjects[7], "> Answer Module 1 Assessment in Google Classroom" +
                 "\n*11/??/21*");
             builder.AddField(subjects[6], "> Quiz! From Patterns to Propositions" +
-            "\n> Make your own truth table example." +
-            "\n*1?/??/2021 (Before Vacation)*");
+                "\n> Make your own truth table example." +
+                "\n*1?/??/2021 (Before Vacation)*");
+            builder.AddField(subjects[1], "> Student's Fitness Journal (FINAL EXAM)" +
+                "\n*02/14/2022*");
 
             var embed = await ctx.Channel.SendMessageAsync(embed: builder).ConfigureAwait(false);
         }

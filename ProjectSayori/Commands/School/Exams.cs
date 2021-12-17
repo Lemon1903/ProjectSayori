@@ -35,12 +35,15 @@ namespace ProjectSayori.Commands
             {
                 Title = "Exams",
                 Color = DiscordColor.Red,
-                Description = $"Here is the schedule of the exams as of 11/23."
+                Description = $"Here is the schedule of the exams as of 12/14."
             };
 
-            builder.AddField(subjects[0], "December 9(?)");
-            builder.AddField(subjects[5], "December 14(?)");
-            builder.AddField(subjects[6], "Probably Next Week or Next Two Weeks.");
+            builder.AddField(subjects[0], "December 16\nCoverage: From start to Array");
+            builder.AddField(subjects[1], "The Group Activity");
+            builder.AddField(subjects[3], "The Reporting");
+            builder.AddField(subjects[4], "December 17 (Whole Day/Take Home)");
+            builder.AddField(subjects[5], "December 14\nCoverage: From start to Number Systems");
+            builder.AddField(subjects[6], "December 17");
 
             var embed = await ctx.Channel.SendMessageAsync(embed: builder).ConfigureAwait(false);
         }
