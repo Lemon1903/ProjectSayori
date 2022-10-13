@@ -24,7 +24,7 @@ namespace ProjectSayori
 
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -32,7 +32,7 @@ namespace ProjectSayori
 
             var commands = discord.UseCommandsNext(new CommandsNextConfiguration()
             {
-                StringPrefixes = new[] { "?" }
+                StringPrefixes = new[] { "!" }
             });
 
             discord.UseInteractivity(new InteractivityConfiguration()

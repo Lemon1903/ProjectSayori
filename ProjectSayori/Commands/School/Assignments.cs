@@ -31,13 +31,13 @@ namespace ProjectSayori.Commands
         [Description("Displays the upcoming assignments, as well as its deadlines.")]
         public async Task Ass(CommandContext ctx)
         {
-            string[] homeworks = System.IO.File.ReadAllLines(@"Commands\School\Homework.txt");
+            string[] homeworks = System.IO.File.ReadAllLines(@"D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\Commands\School\Homework.txt");
             DateTime now = DateTime.Now;
             var builder = new DiscordEmbedBuilder
             {
                 Title = "Assignments",
                 Color = DiscordColor.Red,
-                Description = $"Last Updated: 12/06/2021"
+                Description = $"Last Updated: 02/03/2022"
             };
 
             for (int i = 0; i < homeworks.Length; i += 4)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {}
+    "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {}
   },
   "projects": {
-    "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {
+    "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
+        "projectUniqueName": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
         "projectName": "ProjectSayori",
-        "projectPath": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
+        "projectPath": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
         "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-        "outputPath": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori\\obj\\",
+        "outputPath": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,23 +43,23 @@
           "dependencies": {
             "DSharpPlus": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.2.0, )"
             },
             "DSharpPlus.CommandsNext": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.2.0, )"
             },
             "DSharpPlus.Interactivity": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.2.0, )"
             },
             "DSharpPlus.VoiceNext": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.2.0, )"
             },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
-              "version": "[5.2.7, )"
+              "version": "[5.2.9, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
