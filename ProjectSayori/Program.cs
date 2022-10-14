@@ -24,7 +24,7 @@ namespace ProjectSayori
 
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -74,7 +74,5 @@ namespace ProjectSayori
             await discord.ConnectAsync();
             await Task.Delay(-1);
         }
-
-
     }
 }
