@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {}
+    "C:\\Users\\Angelika Louise\\Desktop\\C# Projects\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {}
   },
   "projects": {
-    "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {
+    "C:\\Users\\Angelika Louise\\Desktop\\C# Projects\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
+        "projectUniqueName": "C:\\Users\\Angelika Louise\\Desktop\\C# Projects\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
         "projectName": "ProjectSayori",
-        "projectPath": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
-        "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-        "outputPath": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\obj\\",
+        "projectPath": "C:\\Users\\Angelika Louise\\Desktop\\C# Projects\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
+        "packagesPath": "C:\\Users\\Khent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Angelika Louise\\Desktop\\C# Projects\\ProjectSayori\\ProjectSayori\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Khent\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.emzi0767.com/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -76,12 +75,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
@@ -8,6 +9,8 @@ using DSharpPlus.Interactivity.Enums;
 using DSharpPlus.Interactivity.Extensions;
 using DSharpPlus.Net;
 using ProjectSayori.Commands;
+using ProjectSayori.Commands.QuoteGenerator;
+
 
 namespace ProjectSayori
 {
@@ -16,15 +19,15 @@ namespace ProjectSayori
         static void Main(string[] args)
         {
             MainAsync().GetAwaiter().GetResult();
+            // Test();
         }
 
 
         static async Task MainAsync()
         {
-
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "MTAyOTc1Njg4MzgzMTA5OTU2Mg.GSwONI.EcZlqwTqH_PipGwB5FrjTCjjlz2WMyANLqvOB8",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -55,6 +58,10 @@ namespace ProjectSayori
             commands.RegisterCommands<GenshinImage>();
             commands.RegisterCommands<Memes>();
 
+            // Quote Generator
+            commands.RegisterCommands<RandomQuoteCommand>();
+            commands.RegisterCommands<SearchQuoteCommand>();
+
             // Math Related
             commands.RegisterCommands<Fibonacci>();
             commands.RegisterCommands<EuclideanAlgorithm>();
@@ -65,6 +72,7 @@ namespace ProjectSayori
 
             // For my class
             commands.RegisterCommands<Schedule>();
+            commands.RegisterCommands<ScheduleCopy>();
             commands.RegisterCommands<Assignments>();
             commands.RegisterCommands<Exams>();
 
@@ -75,6 +83,32 @@ namespace ProjectSayori
             await Task.Delay(-1);
         }
 
+        #region Testing
+        // private static void Test()
+        // {
+        //     Dictionary<string, string[,]> dict = new()
+        //     {
+        //         { "hi", new string[,] 
+        //             { 
+        //                 {"sdfsd", "sdfsdf", "sdfsd"}, 
+        //                 {"asdasd", "adsasd", "sasd"} 
+        //             } 
+        //         },
 
+        //         { "hello", new string[,] 
+        //             { 
+        //                 {"sdfsd", "sdfsdf", "sdfsd"}, 
+        //                 {"asdasd", "adsasd", "sasd"} 
+        //             } 
+        //         },
+        //     };
+
+        //     for (int i = 0; i < dict["hi"].GetLength(0); i++)
+        //     {
+        //         Console.WriteLine(dict["hi"][i, 0]);
+        //     }
+        //     Console.ReadLine();
+        // }
+        #endregion
     }
 }
