@@ -17,8 +17,7 @@ namespace ProjectSayori
         {
             MainAsync().GetAwaiter().GetResult();
         }
-
-
+        
         static async Task MainAsync()
         {
 

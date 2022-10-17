@@ -35,7 +35,6 @@ D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Proj
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.runtimeconfig.json
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.runtimeconfig.dev.json
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ref\ProjectSayori.dll
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.pdb
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ConcurrentCollections.dll
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.dll
@@ -63,3 +62,4 @@ D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ref\
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.pdb
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.genruntimeconfig.cache
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.CopyComplete
+D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\refint\ProjectSayori.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6p+JRj1MYl//pD/k8AQkDdhjv4Qx2RxRLFNwt8U9k8/6FQgduxo85vD0apd0tlbi9OUAI/7ZQftEaII6KEsGlw==",
+  "dgSpecHash": "U0jZ9CeX3cnaGSOtCAgM8foCHJZ0YNMoj6IZf1/N/NO9W6mIRsOV5k6Z8AJo1RMPVwl77MEqMPj9bhSbYOj46A==",
   "success": true,
   "projectFilePath": "D:\\win10\\Documents\\Discord Bot\\ProjectSayori\\ProjectSayori\\ProjectSayori.csproj",
   "expectedPackageFiles": [
@@ -104,7 +104,11 @@
     "C:\\Users\\win10\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\win10\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\win10\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\win10\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\win10\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\win10\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\win10\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\win10\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\win10\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
