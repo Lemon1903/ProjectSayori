@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
@@ -8,6 +10,8 @@ using DSharpPlus.Interactivity.Enums;
 using DSharpPlus.Interactivity.Extensions;
 using DSharpPlus.Net;
 using ProjectSayori.Commands;
+using ProjectSayori.Commands.QuoteGenerator;
+
 
 namespace ProjectSayori
 {
@@ -20,10 +24,9 @@ namespace ProjectSayori
         
         static async Task MainAsync()
         {
-
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -54,6 +57,10 @@ namespace ProjectSayori
             commands.RegisterCommands<GenshinImage>();
             commands.RegisterCommands<Memes>();
 
+            // Quote Generator
+            commands.RegisterCommands<RandomQuoteCommand>();
+            commands.RegisterCommands<SearchQuoteCommand>();
+
             // Math Related
             commands.RegisterCommands<Fibonacci>();
             commands.RegisterCommands<EuclideanAlgorithm>();
@@ -64,6 +71,7 @@ namespace ProjectSayori
 
             // For my class
             commands.RegisterCommands<Schedule>();
+            commands.RegisterCommands<ScheduleCopy>(); // added the refactored schedule
             commands.RegisterCommands<Assignments>();
             commands.RegisterCommands<Exams>();
 
@@ -73,5 +81,7 @@ namespace ProjectSayori
             await discord.ConnectAsync();
             await Task.Delay(-1);
         }
+
+
     }
 }
