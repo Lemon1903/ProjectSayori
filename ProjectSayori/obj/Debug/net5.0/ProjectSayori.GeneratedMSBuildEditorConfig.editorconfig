@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectSayori
+<<<<<<< HEAD
 build_property.ProjectDir = d:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\
+=======
+build_property.ProjectDir = C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\
+>>>>>>> 3e8796bdaca94bd1cce47b618827ffcb73b05949
