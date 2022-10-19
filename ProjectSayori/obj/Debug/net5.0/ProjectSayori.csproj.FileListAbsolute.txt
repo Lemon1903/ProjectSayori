@@ -1,35 +1,3 @@
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.exe
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.deps.json
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.runtimeconfig.json
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.runtimeconfig.dev.json
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ref\ProjectSayori.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.pdb
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ConcurrentCollections.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.CommandsNext.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.Interactivity.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.VoiceNext.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Emzi0767.Common.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\System.Net.Http.Formatting.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x64\native\libopus.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x64\native\libsodium.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x86\native\libopus.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x86\native\libsodium.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.AssemblyReference.cache
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.GeneratedMSBuildEditorConfig.editorconfig
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.AssemblyInfoInputs.cache
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.AssemblyInfo.cs
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.CoreCompileInputs.cache
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ref\ProjectSayori.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.pdb
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.genruntimeconfig.cache
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.exe
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.deps.json
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.runtimeconfig.json
@@ -57,45 +25,9 @@ D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\Proj
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.AssemblyInfoInputs.cache
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.AssemblyInfo.cs
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.CoreCompileInputs.cache
+D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.CopyComplete
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.dll
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ref\ProjectSayori.dll
+D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\refint\ProjectSayori.dll
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.pdb
 D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.genruntimeconfig.cache
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.CopyComplete
-<<<<<<< HEAD
-D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\refint\ProjectSayori.dll
-=======
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.exe
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.deps.json
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.runtimeconfig.json
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.runtimeconfig.dev.json
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ProjectSayori.pdb
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\ConcurrentCollections.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.CommandsNext.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.Interactivity.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\DSharpPlus.VoiceNext.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Emzi0767.Common.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\System.Net.Http.Formatting.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x64\native\libopus.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x64\native\libsodium.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x86\native\libopus.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\bin\Debug\net5.0\runtimes\win-x86\native\libsodium.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.AssemblyReference.cache
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.AssemblyInfoInputs.cache
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.AssemblyInfo.cs
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.CoreCompileInputs.cache
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.csproj.CopyComplete
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\refint\ProjectSayori.dll
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.pdb
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ProjectSayori.genruntimeconfig.cache
-C:\Users\Angelika Louise\Desktop\C# Projects\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ref\ProjectSayori.dll
->>>>>>> 3e8796bdaca94bd1cce47b618827ffcb73b05949
+D:\win10\Documents\Discord Bot\ProjectSayori\ProjectSayori\obj\Debug\net5.0\ref\ProjectSayori.dll

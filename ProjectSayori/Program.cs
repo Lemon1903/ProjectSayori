@@ -26,7 +26,7 @@ namespace ProjectSayori
         {
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -70,8 +70,7 @@ namespace ProjectSayori
             commands.RegisterCommands<Touhou>();
 
             // For my class
-            commands.RegisterCommands<Schedule>();
-            commands.RegisterCommands<ScheduleCopy>(); // added the refactored schedule
+            commands.RegisterCommands<Schedules>();
             commands.RegisterCommands<Assignments>();
             commands.RegisterCommands<Exams>();
 

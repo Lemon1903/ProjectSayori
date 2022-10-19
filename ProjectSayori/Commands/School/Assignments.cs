@@ -14,20 +14,20 @@ namespace ProjectSayori.Commands
     public class Assignments : BaseCommandModule
     {
 
-        string[] subjects =
+        private static readonly string[] subjects = new string[]
         {
-            /*0*/ "Computer Programming 1",
-            /*1*/ "Physical Fitness and Self-Testing Activities",
-            /*2*/ "Filipinolohiya at Pambansang Kaunlaran",
-            /*3*/ "Purposive Communication",
-            /*4*/ "Politics, Governance and Citizenship",
-            /*5*/ "Introduction to Computing",
-            /*6*/ "Mathematics in the Modern World",
-            /*7*/ "Civic Welfare Training Service 1"
+            /*0*/ "Discrete Structures",
+            /*1*/ "World Literature",
+            /*2*/ "Data Structures and Algorithms",
+            /*3*/ "Object Oriented Programming",
+            /*4*/ "Ethics",
+            /*5*/ "Individual/Dual/Combative Sports",
+            /*6*/ "Modeling and Simulation",
+            /*7*/ "Logic Design and Digital Computer Circuits",
+            /*8*/ "CS Free Elective"
         };
         
-
-        [Command("pwet")]
+        [Command("homework")]
         [Description("Displays the upcoming assignments, as well as its deadlines.")]
         public async Task Ass(CommandContext ctx)
         {
@@ -45,7 +45,6 @@ namespace ProjectSayori.Commands
                 builder.AddField(subjects[Int32.Parse(homeworks[i])], $"{homeworks[i+1]}\n{homeworks[i+2]}\n{homeworks[i+3]}");
             }
             var embed = await ctx.Channel.SendMessageAsync(embed: builder).ConfigureAwait(false);
-            
         }
     }
 }

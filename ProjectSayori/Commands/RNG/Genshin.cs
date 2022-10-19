@@ -175,7 +175,6 @@ namespace ProjectSayori.Commands
 
 
         // RNG Logic
-
         public string Standard()
         {
             var random = new Random();
