@@ -31,22 +31,22 @@ namespace ProjectSayori.Commands
                 { subjects[1], "12:00 - 13:30" },
                 { subjects[2], "14:30 - 16:30" },
                 { subjects[3], "16:30 - 19:00" },
+                { subjects[4], "19:30 - 21:00" },
             }},
             
             { "Tuesday", new string[,] {
-                { subjects[4], "12:00 - 13:30" },
-                { subjects[5], "15:00 - 15:00" },
-                { subjects[6], "15:00 - 16:30" },
+                { subjects[5], "15:00 - 17:00" },
+                { subjects[6], "18:00 - 16:30" },
             }},
 
             { "Thursday", new string[,] {
                 { subjects[1], "12:00 - 13:30" },
                 { subjects[2], "13:30 - 16:30" },
                 { subjects[3], "17:00 - 19:30" },
+                { subjects[4], "19:30 - 21:00" },
             }},
 
             { "Friday", new string[,] {
-                { subjects[4], "12:00 - 13:30" },
                 { subjects[7], "18:00 - 21:00" },
             }},
 
@@ -61,10 +61,10 @@ namespace ProjectSayori.Commands
                 "To be announced...",
                 "To be announced...",
                 "To be announced...",
+                "To be announced...",
             }},
 
             { "Tuesday", new string[] {
-                "To be announced...",
                 "To be announced...",
                 "To be announced...",
             }},
@@ -73,10 +73,10 @@ namespace ProjectSayori.Commands
                 "To be announced...",
                 "To be announced...",
                 "To be announced...",
+                "To be announced...",
             }},
 
             { "Friday", new string[] {
-                "To be announced...",
                 "To be announced...",
             }},
 
@@ -126,7 +126,7 @@ namespace ProjectSayori.Commands
 
         private string GetResponseFromSubject(DateTime now, string dayToday)
         {
-            // check if no classes 
+            // check if no classes   
             if (!schedules.ContainsKey(dayToday))
                 return "There is no class today!";
 
