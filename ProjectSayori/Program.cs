@@ -26,7 +26,7 @@ namespace ProjectSayori
         {
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -53,7 +53,6 @@ namespace ProjectSayori
             // API
             commands.RegisterCommands<Danbooru>();
             commands.RegisterCommands<GenshinHentai>();
-            commands.RegisterCommands<GenshinMeme>();
             commands.RegisterCommands<GenshinImage>();
             commands.RegisterCommands<Memes>();
 
