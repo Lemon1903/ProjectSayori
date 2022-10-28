@@ -13,10 +13,15 @@ public class SokobotCommand : BaseCommandModule
     [Command("sokobot")]
     public async Task Sokobot(CommandContext ctx)
     {
-        if (GameManager.Games.ContainsKey(ctx.User))
+        if (GameManager.Games.ContainsKey(ctx.User.Id))
+        {
             game = GameManager.LoadGame(ctx.User);
+        }
         else
+        {
             game = GameManager.NewGame(ctx.User, 1);
+            GameManager.SaveGameProgress(ctx.User, game.Level);
+        }
         
         game.Update(ctx.Client, String.Empty);
         game.GameMessage = await ctx.RespondAsync(game.MessageBuilder).ConfigureAwait(false);
@@ -32,6 +37,7 @@ public class SokobotCommand : BaseCommandModule
             game = GameManager.NewGame(ctx.User, game.Level + 1);
             game.Update(ctx.Client, String.Empty);
             game.GameMessage = await ctx.RespondAsync(game.MessageBuilder).ConfigureAwait(false);
+            GameManager.SaveGameProgress(ctx.User, game.Level);
         }
     }
 }

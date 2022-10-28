@@ -70,7 +70,6 @@ namespace Sokobot
                 {
                     CurrentPlayer = new Player((int)playerPos.X, (int)playerPos.Y, this);
                     grid[(int)playerPos.X, (int)playerPos.Y] = Tile.Player;
-                    break;
                 }
             }
         }

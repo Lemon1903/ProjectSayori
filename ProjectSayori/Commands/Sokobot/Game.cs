@@ -42,11 +42,11 @@ namespace Sokobot
             }
         }
 
-        public DiscordMessageBuilder SetWonEmbed(DiscordClient client)
+        public DiscordMessageBuilder SetWonEmbed()
         {
             var emBuilder = new DiscordEmbedBuilder{
                 Title = $"Congratulations, you win {currentUser.Username}!",
-                Description = $"Type ``!continue`` to continue to the next level.",
+                Description = "Type ``!continue`` to continue to the next level.",
             };
 
             return new DiscordMessageBuilder().WithEmbed(emBuilder);
