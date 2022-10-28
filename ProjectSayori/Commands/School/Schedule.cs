@@ -36,7 +36,7 @@ namespace ProjectSayori.Commands
             
             { "Tuesday", new string[,] {
                 { subjects[5], "15:00 - 17:00" },
-                { subjects[6], "18:00 - 16:30" },
+                { subjects[6], "18:00 - 21:00" },
             }},
 
             { "Thursday", new string[,] {
@@ -63,10 +63,10 @@ namespace ProjectSayori.Commands
                 "To be announced...",
                 "To be announced...",
             }},
-
+    
             { "Tuesday", new string[] {
                 "To be announced...",
-                "To be announced...",
+                "https://bit.ly/3N2zOln",
             }},
 
             { "Thursday", new string[] {

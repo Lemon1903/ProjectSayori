@@ -26,7 +26,7 @@ namespace ProjectSayori
         {
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                Token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
@@ -75,6 +75,8 @@ namespace ProjectSayori
 
             // Others
             commands.RegisterCommands<InputTest>();
+            commands.RegisterCommands<ReactionTest>();
+
 
             await discord.ConnectAsync();
             await Task.Delay(-1);
